@@ -1,5 +1,5 @@
 # ipfs-keep
-This is a tool for keeping data on IPFS network.
+This is a library for keeping data on IPFS network.
 
 ### Requirements
 * Node.js
