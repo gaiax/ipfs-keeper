@@ -1,4 +1,4 @@
-# ipfs-keep
+# ipfs-keeper
 This is a library for keeping data on IPFS network.
 
 ### Requirements
