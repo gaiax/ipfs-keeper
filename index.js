@@ -1,5 +1,20 @@
 const axios = require("axios");
-
+function access(url) {
+  return new Promise((resolve, reject) => {
+    axios.get(
+      url,
+      {
+        timeout: 20000
+      }
+    ).then((response) => {
+      console.log("✅ " + url);
+      resolve();
+    }).catch(() => {
+      console.log("❌ " + url);
+      resolve();
+    });
+  });
+}
 class IPFSKeeper {
   constructor() {
     this.gateways = null;
